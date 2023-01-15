@@ -23,8 +23,8 @@ Now by going to: *Databases > [Username] > Schemas > Tables > customer > Columns
 
 ### Testing with Postman
 - Import ``AshFernandes.postman_collection.json`` to your Postman desktop app.
-1. Send the ``getCustomer`` request. You will find an empty list being returned with status code ``200 OK``
-2. Send the ``saveCustomer`` request. This will populate the list with data.
+1. Send the ``getCustomer`` request. You will find an empty list being returned, with status code ``200 OK``
+2. Send the ``saveCustomer`` request. This will populate the list, with status code ``201 Created``
 3. Send the ``getCustomer`` request again. You can view the newly populated list at the bottom half of the screen under **Body**.
 4. Send the ``deleteCustomer`` request. This will delete the data from that list.
 5. Send the ``getCustomer`` request a final time. You can view an empty list now.
