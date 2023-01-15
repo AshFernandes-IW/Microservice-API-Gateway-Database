@@ -25,6 +25,6 @@ Now by going to: *Databases > [Username] > Schemas > Tables > customer > Columns
 - Import ``AshFernandes.postman_collection.json`` to your Postman desktop app.
 1. Send the ``getCustomer`` request. You will find an empty list being returned, with status code ``200 OK``
 2. Send the ``saveCustomer`` request. This will populate the list, with status code ``201 Created``
-3. Send the ``getCustomer`` request again. You can view the newly populated list at the bottom half of the screen under **Body**. The status code should be ``200 OK`
-4. Send the ``deleteCustomer`` request. Make sure you enter the correct ID at the end of the URL. You can fnd this in the list from the previus request. This will delete the data from that list. The status code should be ``204 No Content` 
+3. Send the ``getCustomer`` request again. You can view the newly populated list at the bottom half of the screen under **Body**. The status code should be ``200 OK``
+4. Send the ``deleteCustomer`` request. Make sure you enter the correct ID at the end of the URL. You can fnd this in the list from the previus request. This will delete the data from that list. The status code should be ``204 No Content``
 5. Send the ``getCustomer`` request a final time. You can view an empty list now, with status code ``200 OK``
