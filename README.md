@@ -1,4 +1,4 @@
-# Microservice-API Gateway-Database
+# Microservice-API-Gateway-Database
 
 #### This guide assumes you have the following installed and running:
 * [Docker](https://www.docker.com/products/docker-desktop/)
