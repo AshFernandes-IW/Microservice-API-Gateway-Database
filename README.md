@@ -22,7 +22,7 @@
 Now by going to: *Databases > [Username] > Schemas > Tables > customer > Columns*, you will see the values **id**, **age**, **first_name**, **last_name**, and **sex**.
 
 ### Testing with Postman
-- Import ``AshFernandes.postman_collection.json`` to your Postman desktop app.
+- Import and open ``AshFernandes.postman_collection.json`` to your Postman desktop app.
 1. Send the ``getCustomer`` request. You will find an empty list being returned, with status code ``200 OK``
 2. Send the ``saveCustomer`` request. This will populate the list, with status code ``201 Created``
 3. Send the ``getCustomer`` request again. You can view the newly populated list at the bottom half of the screen under **Body**. The status code should return ``200 OK``
